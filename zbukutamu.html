@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Buku Tamu - Personal Web</title>
+</head>
+<body bgcolor="#e5e7eb" text="#1f2937">
+
+    <table width="750" align="center" bgcolor="#ffffff" cellpadding="30" cellspacing="0" border="0">
+        <tr>
+            <td>
+                <!-- HEADER AREA -->
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td bgcolor="#1f2937" align="center" style="padding: 20px;">
+                            <font color="#ffffff" size="6" face="Helvetica, Arial, sans-serif"><b>JURNAL DIGITAL SAYA</b></font>
+                        </td>
+                        <td bgcolor="#1f2937" align="center" cellpadding="20" style="padding: 20px;">
+                            <img src="images gua/logoskaduta.jpeg" alt="logo skaduta" width="50" height="50">
+                         </td>
+                    </tr>
+                </table>
+
+                <!-- NAVIGASI -->
+                <table width="100%" bgcolor="#ffffff" border="0" cellpadding="10" cellspacing="0">
+                    <tr>
+                        <td align="center">
+                            <font face="Arial, sans-serif" size="2">
+                                <a href="index.html"><img src="images gua/home.png" alt="artikel" width="50" height="50"></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="zprofil.html"><img src="images gua/profile.png" alt="artikel" width="50" height="50"></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="zgaleri.html"><img src="images gua/gallery.png" alt="artikel" width="50" height="50"></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="zartikel.html"><img src="images gua/article.png" alt="artikel" width="50" height="50"></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="zbukutamu.html"><img src="images gua/buku.png" alt="[buku tamu]" width="60" height="60"></a>
+                            </font>
+                            <font face="Arial, sans-serif" size="2">
+                               <P>BERANDA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                PROFIL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                GALERI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                ARTIKEL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                BUKU TAMU</P>
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+
+                <br><br>
+
+                <!-- KONTEN BUKU TAMU -->
+                <font face="Georgia, serif" size="5"><b>Registrasi Buku Tamu Interaktif</b></font>
+                <hr size="2" color="#1f2937" align="left" width="100">
+                <br>
+                <p>Silakan tinggalkan identitas dan impresi Anda setelah mengunjungi ruang digital ini.</p>
+                <br>
+
+                <!-- Form dengan Komponen Elemen Sesuai Modul -->
+                <form action="#" method="POST">
+                    <table width="100%" border="0" cellpadding="12" cellspacing="0" bgcolor="#f9fafb">
+                        <tr>
+                            <td width="28%"><b><label for="nama">Nama Lengkap</label></b></td>
+                            <td><input type="text" id="nama" name="nama" size="45" required></td>
+                        </tr>
+                        <tr>
+                            <td><b><label for="email">Alamat Email</label></b></td>
+                            <td><input type="email" id="email" name="email" size="45" required></td>
+                        </tr>
+                        <tr>
+                            <!-- Input Radio Button untuk Gender Wajib -->
+                            <td><b>Jenis Kelamin</b></td>
+                            <td>
+                                <input type="radio" id="pria" name="jenis_kelamin" value="Laki-laki" required>
+                                <label for="pria">Laki-laki</label>
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type="radio" id="wanita" name="jenis_kelamin" value="Perempuan">
+                                <label for="wanita">Perempuan</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top"><b><label for="pesan">Pesan / Kesan</label></b></td>
+                            <td><textarea id="pesan" name="pesan" rows="7" cols="48" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <!-- Tombol Kirim & Reset -->
+                                <input type="submit" value="Kirim Data">
+                                &nbsp;&nbsp;
+                                <input type="reset" value="Bersihkan Form">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+
+                <br><br><br>
+                <!-- FOOTER -->
+                <hr size="1" color="#d1d5db">
+                <p align="center"><font size="2" color="#9ca3af" face="Arial">&copy; 2026 muhammad hanif hisyam. Dibuat dengan HTML Murni.</font></p>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
